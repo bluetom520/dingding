@@ -1,0 +1,8 @@
+INFO:root:**********************************************************************************************************************************
+DEBUG:root:{u'invaliduser': u'', u'invalidparty': u'', u'errcode': 0, u'errmsg': u'ok', u'messageId': u'44004de5b8683acab9b1700f56bfb880'}
+INFO:root:**********************************************************************************************************************************
+DEBUG:root:{u'forbiddenUserId': u'manager1522|07523835553556498', u'invalidparty': u'', u'errcode': 0, u'invaliduser': u'', u'messageId': u'b7277e1ee317357389a5290358aaf0ec', u'errmsg': u'ok'}
+INFO:root:**********************************************************************************************************************************
+DEBUG:root:{u'forbiddenUserId': u'manager1522|07523835553556498', u'invalidparty': u'', u'errcode': 0, u'invaliduser': u'', u'messageId': u'51b94e481a493951848ce6956bf1fb44', u'errmsg': u'ok'}
+INFO:root:**********************************************************************************************************************************
+DEBUG:root:{u'invaliduser': u'', u'invalidparty': u'', u'errcode': 0, u'errmsg': u'ok', u'messageId': u'd3fc2bcb9486345fa0684a6e63da0988'}
