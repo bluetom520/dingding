@@ -92,5 +92,22 @@ web = http://192.168.1.199/zabbix/
 恢复图
 ![](leanote://file/getImage?fileId=58708d3ad31d9c310300000b)
 
+### 5 docker环境修改
+```
+tar zxvf  requests-2.12.4.tar.gz
+docker cp requests-2.12.4 zabbix:/usr/local/share/zabbix/alertscripts
+docker cp dingding zabbix:/usr/local/share/zabbix/alertscripts
+docker exec -it zabbix /bin/bash
+cd /usr/local/share/zabbix/alertscripts/requests-2.12.4
+rm -rf requests-2.12.4
+python setup.py install
+cd ..
+mv dingding/* .
+vi config.ini
+exit
+docker restart zabbix
+
+```
+
 具体内容参考：https://note.gitcloud.cc/blog/post/bluetom520/%E9%92%89%E9%92%89%E6%8A%A5%E8%AD%A6%E6%A8%A1%E6%9D%BF
 
