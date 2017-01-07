@@ -5,7 +5,6 @@
 import requests
 import sys
 import json
-import logging
 from conf.INIFILES import read_config, write_config
 import os
 import datetime
@@ -136,6 +135,7 @@ class Dingtalk(object):
         except:
             self.__raise_error(res)
 
+
 def main(send_to, subject, content):
     try:
         global sendstatus
@@ -200,10 +200,12 @@ def main(send_to, subject, content):
 
     logwrite(sendstatus, data)
 
+
 def get_path():
     path = os.path.dirname(os.path.abspath(sys.argv[0]))
     config_path = path + '/config.ini'
     return config_path
+
 
 def logwrite(sendstatus, content):
     logpath = '/var/log/zabbix/dingding'

@@ -1,4 +1,4 @@
-
+```
 服务器:{HOST.NAME}: {TRIGGER.NAME}已恢复!
 
 {
@@ -29,3 +29,4 @@
 "事件ID":"{ITEM.ID}",
 "监控取值":"{ITEM.LASTVALUE}"
 }
+```
