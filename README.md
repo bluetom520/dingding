@@ -64,7 +64,7 @@ web = http://192.168.1.199/zabbix/
 "监控项目":"{ITEM.NAME}",
 "当前状态":"{TRIGGER.STATUS}",
 "持续时间":"{EVENT.AGE}",
-"事件ID":"{EVENT.ID}"
+"事件ID":"{EVENT.ID}",
 "监控取值":"{ITEM.LASTVALUE}"
 }
 
@@ -79,7 +79,7 @@ web = http://192.168.1.199/zabbix/
 "监控项目":"{ITEM.NAME}",
 "当前状态":"{TRIGGER.STATUS}",
 "持续时间":"{EVENT.AGE}",
-"事件ID":"{ITEM.ID}",
+"事件ID":"{EVENT.ID}",
 "监控取值":"{ITEM.LASTVALUE}"
 }
 ```
@@ -109,5 +109,5 @@ docker restart zabbix
 
 ```
 
-具体内容参考：https://note.gitcloud.cc/blog/post/bluetom520/%E9%92%89%E9%92%89%E6%8A%A5%E8%AD%A6%E6%A8%A1%E6%9D%BF
+## 具体内容参考：https://note.gitcloud.cc/blog/post/bluetom520/%E9%92%89%E9%92%89%E6%8A%A5%E8%AD%A6%E6%A8%A1%E6%9D%BF
 
